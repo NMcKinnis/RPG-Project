@@ -7,6 +7,7 @@ namespace RPG.Movement
     {
         NavMeshAgent navMeshAgent;
         Health health;
+        [SerializeField] float maxSpeed = 6f;
         private void Start()
         {
             navMeshAgent = GetComponent<NavMeshAgent>();
@@ -18,15 +19,16 @@ namespace RPG.Movement
             navMeshAgent.enabled = !health.IsDead();
             UpdateAnimator();
         }
-        public void StartMoveAction(Vector3 destination)
+        public void StartMoveAction(Vector3 destination, float moveSpeedFraction)
         {
             GetComponent<ActionScheduler>().StartAction(this) ;
-            MoveTo(destination);
+            MoveTo(destination, moveSpeedFraction);
         }
 
-        public void MoveTo(Vector3 destination)
+        public void MoveTo(Vector3 destination, float moveSpeedFraction)
         {
             GetComponent<NavMeshAgent>().destination = destination;
+            navMeshAgent.speed = maxSpeed * Mathf.Clamp01(moveSpeedFraction);
             navMeshAgent.isStopped = false;
         }
         public void Cancel()

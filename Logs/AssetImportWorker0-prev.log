@@ -1,10 +1,10 @@
 Using pre-set license
-Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'en' Physical Memory: 32635 MB
+Built from '2020.3/release' branch; Version is '2020.3.31f1 (6b54b7616050) revision 7034039'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 32635 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.25f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.31f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
@@ -15,59 +15,59 @@ C:/Repos/RPG Project/RPG Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50487
+54247
 Successfully changed project path to: C:/Repos/RPG Project/RPG Project
 C:/Repos/RPG Project/RPG Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 27.19 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 39.23 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.25f1 (9b9180224418)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
+Initialize engine version: 2020.3.31f1 (6b54b7616050)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Repos/RPG Project/RPG Project/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
     Vendor:   
-    VRAM:     8043 MB
-    Driver:   30.0.14.9729
+    VRAM:     8031 MB
+    Driver:   31.0.15.3598
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56536
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56184
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001666 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001225 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 21.95 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 39.47 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.391 seconds
+- Completed reload, in  0.419 seconds
 Domain Reload Profiling:
-	ReloadAssembly (392ms)
-		BeginReloadAssembly (38ms)
+	ReloadAssembly (419ms)
+		BeginReloadAssembly (44ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (304ms)
-			LoadAssemblies (37ms)
+		EndReloadAssembly (325ms)
+			LoadAssemblies (43ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (106ms)
+			SetupTypeCache (94ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (21ms)
-			SetupLoadedEditorAssemblies (112ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (134ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (22ms)
+				RefreshPlugins (40ms)
 				BeforeProcessingInitializeOnLoad (12ms)
-				ProcessInitializeOnLoadAttributes (55ms)
+				ProcessInitializeOnLoadAttributes (59ms)
 				ProcessInitializeOnLoadMethodAttributes (19ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -75,52 +75,52 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001937 seconds.
+Registered in 0.002372 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 38.89 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.682 seconds
+- Completed reload, in  0.820 seconds
 Domain Reload Profiling:
-	ReloadAssembly (682ms)
-		BeginReloadAssembly (98ms)
+	ReloadAssembly (821ms)
+		BeginReloadAssembly (102ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (13ms)
-		EndReloadAssembly (545ms)
-			LoadAssemblies (54ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (677ms)
+			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (181ms)
+			SetupTypeCache (208ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (214ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (274ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (57ms)
-				ProcessInitializeOnLoadAttributes (142ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				RefreshPlugins (39ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (159ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1554 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.5 MB.
-System memory in use after: 87.6 MB.
+Unloading 3016 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.4 MB.
+System memory in use after: 153.6 MB.
 
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2011.
-Total: 1.775600 ms (FindLiveObjects: 0.092500 ms CreateObjectMapping: 0.030600 ms MarkObjects: 1.585500 ms  DeleteObjects: 0.066100 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3478.
+Total: 4.024000 ms (FindLiveObjects: 0.430700 ms CreateObjectMapping: 0.113300 ms MarkObjects: 3.371000 ms  DeleteObjects: 0.107800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,17 +134,361 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/Core/Health.cs
-  artifactKey: Guid(c41541ef584172547b2a9b02566f8648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/Health.cs using Guid(c41541ef584172547b2a9b02566f8648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a24201368d61c1af4750b209f6981b6') in 0.017012 seconds 
-  Import took 0.018753 seconds .
-
+  path: Assets/Ghost_Shader/Ghost.mat
+  artifactKey: Guid(77215c3efd5ba5444ab6281eebcc274d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ghost_Shader/Ghost.mat using Guid(77215c3efd5ba5444ab6281eebcc274d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a9776d056cb0c04cd350410adcc16d') in 0.199366 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4009.663461 seconds.
-  path: Assets/Scripts/Control/PlayerController.cs
-  artifactKey: Guid(e8f45f6650e31a143a4311c785b569e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Control/PlayerController.cs using Guid(e8f45f6650e31a143a4311c785b569e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d333a5d583f6abc70a2a1184e73b727') in 0.006560 seconds 
-  Import took 0.010386 seconds .
-
+  Time since last request: 0.000197 seconds.
+  path: Assets/Ghost_Shader/Shaders/S_Ghost_Unlit.shadergraph
+  artifactKey: Guid(fe9b8d0cd2ed3534ba1bb2eaede52204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ghost_Shader/Shaders/S_Ghost_Unlit.shadergraph using Guid(fe9b8d0cd2ed3534ba1bb2eaede52204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2be7b7860c973233bff37e3562d4fbee') in 0.008214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5656.735883 seconds.
+  path: Assets/Ghost_Shader/Shaders/S_Ghost_Unlit.shadergraph
+  artifactKey: Guid(fe9b8d0cd2ed3534ba1bb2eaede52204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ghost_Shader/Shaders/S_Ghost_Unlit.shadergraph using Guid(fe9b8d0cd2ed3534ba1bb2eaede52204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2454cec57b48fb49ce8038a807a76bb0') in 0.003487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.760742 seconds.
+  path: Assets/Ghost_Shader/Shaders/S_Ghost_Unlit.shadergraph
+  artifactKey: Guid(fe9b8d0cd2ed3534ba1bb2eaede52204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ghost_Shader/Shaders/S_Ghost_Unlit.shadergraph using Guid(fe9b8d0cd2ed3534ba1bb2eaede52204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4acc3992bccf148e947bda2709c6939c') in 0.001851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.140595 seconds.
+  path: Assets/Ghost_Shader/Shaders/S_Ghost_Unlit.shadergraph
+  artifactKey: Guid(fe9b8d0cd2ed3534ba1bb2eaede52204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ghost_Shader/Shaders/S_Ghost_Unlit.shadergraph using Guid(fe9b8d0cd2ed3534ba1bb2eaede52204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ef85ed97da3a1628c71690dcd5a4b4') in 0.002334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.473349 seconds.
+  path: Assets/Ghost_Shader/Shaders/S_Ghost_Unlit.shadergraph
+  artifactKey: Guid(fe9b8d0cd2ed3534ba1bb2eaede52204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ghost_Shader/Shaders/S_Ghost_Unlit.shadergraph using Guid(fe9b8d0cd2ed3534ba1bb2eaede52204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf9f96c9e27bcb5aafa4d94feae4a4de') in 0.002085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.631750 seconds.
+  path: Assets/Ghost_Shader/Shaders/S_Ghost_Unlit.shadergraph
+  artifactKey: Guid(fe9b8d0cd2ed3534ba1bb2eaede52204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ghost_Shader/Shaders/S_Ghost_Unlit.shadergraph using Guid(fe9b8d0cd2ed3534ba1bb2eaede52204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '110a6580a0d10c197d9b2a0c49e1e516') in 0.002073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.037032 seconds.
+  path: Assets/Ghost_Shader/Shaders/S_Ghost_Unlit.shadergraph
+  artifactKey: Guid(fe9b8d0cd2ed3534ba1bb2eaede52204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ghost_Shader/Shaders/S_Ghost_Unlit.shadergraph using Guid(fe9b8d0cd2ed3534ba1bb2eaede52204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11dff6bec15c633a3c58ac14b6174fe5') in 0.002001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 135.735810 seconds.
+  path: Assets/Ghost_Shader/Shaders/S_Ghost_Unlit.shadergraph
+  artifactKey: Guid(fe9b8d0cd2ed3534ba1bb2eaede52204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ghost_Shader/Shaders/S_Ghost_Unlit.shadergraph using Guid(fe9b8d0cd2ed3534ba1bb2eaede52204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ade2a77bc9d77051b00733edbcf286') in 0.001977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 57.029205 seconds.
+  path: Assets/Ghost_Shader/Shaders/S_Ghost_Unlit.shadergraph
+  artifactKey: Guid(fe9b8d0cd2ed3534ba1bb2eaede52204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ghost_Shader/Shaders/S_Ghost_Unlit.shadergraph using Guid(fe9b8d0cd2ed3534ba1bb2eaede52204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb89130e96fce7ab3db596f5fe63def') in 0.001881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.716655 seconds.
+  path: Assets/Ghost_Shader/Shaders/S_Ghost_Unlit.shadergraph
+  artifactKey: Guid(fe9b8d0cd2ed3534ba1bb2eaede52204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ghost_Shader/Shaders/S_Ghost_Unlit.shadergraph using Guid(fe9b8d0cd2ed3534ba1bb2eaede52204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80fdf8c9f8e852853a8edbc5533a2eb8') in 0.001801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.994726 seconds.
+  path: Assets/Ghost_Shader/Shaders/GhostUnlit.shadergraph
+  artifactKey: Guid(fe9b8d0cd2ed3534ba1bb2eaede52204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ghost_Shader/Shaders/GhostUnlit.shadergraph using Guid(fe9b8d0cd2ed3534ba1bb2eaede52204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e42baaec32a4437465f8f506b26f5a8') in 0.005187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.286156 seconds.
+  path: Assets/Ghost_Shader/Sub-Graphs
+  artifactKey: Guid(b0ec80cc5f52351489ea66373ecd9980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ghost_Shader/Sub-Graphs using Guid(b0ec80cc5f52351489ea66373ecd9980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a29b9b1ed55e50d6b354d0d3dabce82') in 0.004942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.072053 seconds.
+  path: Assets/Ghost_Shader/Sub-Graphs/Color_Tint.shadersubgraph
+  artifactKey: Guid(2fdf8c60399fa2f4eb6cd6ba909b6713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ghost_Shader/Sub-Graphs/Color_Tint.shadersubgraph using Guid(2fdf8c60399fa2f4eb6cd6ba909b6713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1539dd67a2541a35935f9cd66e21003f') in 0.007489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Ghost_Shader/Sub-Graphs/Fresnel.shadersubgraph
+  artifactKey: Guid(6f61196fc83ed634f9a4deca9d6c67cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ghost_Shader/Sub-Graphs/Fresnel.shadersubgraph using Guid(6f61196fc83ed634f9a4deca9d6c67cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5789113d7d7ca1513f28b9900a791f') in 0.005868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Ghost_Shader/Sub-Graphs/Vertical_Mask_01.shadersubgraph
+  artifactKey: Guid(eacdb9bf013d9494985429e9b9904651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ghost_Shader/Sub-Graphs/Vertical_Mask_01.shadersubgraph using Guid(eacdb9bf013d9494985429e9b9904651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8242b98cd37448280ad1dc98964f9715') in 0.006579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Ghost_Shader/Sub-Graphs/Scene_Exponential_Fog.shadersubgraph
+  artifactKey: Guid(3234495829fcded419b6d0e4a33039f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ghost_Shader/Sub-Graphs/Scene_Exponential_Fog.shadersubgraph using Guid(3234495829fcded419b6d0e4a33039f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa5c6bec6c3896d88cb2661fe289f10') in 0.006237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Ghost_Shader/Sub-Graphs/Noise_Intensity_&_Invert.shadersubgraph
+  artifactKey: Guid(66d8aebc7d921d748a9b30788ce91146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ghost_Shader/Sub-Graphs/Noise_Intensity_&_Invert.shadersubgraph using Guid(66d8aebc7d921d748a9b30788ce91146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '475f199c140dc49d44f2b4749ec608e6') in 0.005238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Ghost_Shader/Sub-Graphs/Triplanar_Projection.shadersubgraph
+  artifactKey: Guid(4ed9d0fe2ff12e144aacc3bea8d8eec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ghost_Shader/Sub-Graphs/Triplanar_Projection.shadersubgraph using Guid(4ed9d0fe2ff12e144aacc3bea8d8eec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e9e9f296005c660999098f4cb59322') in 0.005317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Ghost_Shader/Sub-Graphs/Vertical_Mask_02.shadersubgraph
+  artifactKey: Guid(9dda000bc6859454190b0b1f08481a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ghost_Shader/Sub-Graphs/Vertical_Mask_02.shadersubgraph using Guid(9dda000bc6859454190b0b1f08481a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69930531c45a52b6bb56489ee37e2ed9') in 0.007438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Ghost_Shader/Sub-Graphs/Emission.shadersubgraph
+  artifactKey: Guid(b591c5b58f2aea94f992173e740b4aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ghost_Shader/Sub-Graphs/Emission.shadersubgraph using Guid(b591c5b58f2aea94f992173e740b4aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da107894b800080199a8ca02f16e6fe4') in 0.005990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Ghost_Shader/Sub-Graphs/Triplanar_Continuous_UV_Offset.shadersubgraph
+  artifactKey: Guid(52b01a423eaee9d4d8ed605851bcc82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ghost_Shader/Sub-Graphs/Triplanar_Continuous_UV_Offset.shadersubgraph using Guid(52b01a423eaee9d4d8ed605851bcc82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2390f31a3bdcb144ef1e54fa4a9fbaea') in 0.005195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.139253 seconds.
+  path: Assets/Ghost_Shader/Sub-Graphs/ColorTint.shadersubgraph
+  artifactKey: Guid(2fdf8c60399fa2f4eb6cd6ba909b6713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ghost_Shader/Sub-Graphs/ColorTint.shadersubgraph using Guid(2fdf8c60399fa2f4eb6cd6ba909b6713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '887bcadfba8ea901797fed877aa6b113') in 0.005577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.695011 seconds.
+  path: Assets/Ghost_Shader/Sub-Graphs/NoiseIntensityAndInvert.shadersubgraph
+  artifactKey: Guid(66d8aebc7d921d748a9b30788ce91146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ghost_Shader/Sub-Graphs/NoiseIntensityAndInvert.shadersubgraph using Guid(66d8aebc7d921d748a9b30788ce91146) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '344660cbed1ed041d853f97bd52717df') in 0.005055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.603742 seconds.
+  path: Assets/Ghost_Shader/Sub-Graphs/SceneExponentialFog.shadersubgraph
+  artifactKey: Guid(3234495829fcded419b6d0e4a33039f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ghost_Shader/Sub-Graphs/SceneExponentialFog.shadersubgraph using Guid(3234495829fcded419b6d0e4a33039f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b67ff01aa8c3eaf99676876bb3896931') in 0.005390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.858006 seconds.
+  path: Assets/Ghost_Shader/Sub-Graphs/TriplanarContinuousUVOffset.shadersubgraph
+  artifactKey: Guid(52b01a423eaee9d4d8ed605851bcc82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ghost_Shader/Sub-Graphs/TriplanarContinuousUVOffset.shadersubgraph using Guid(52b01a423eaee9d4d8ed605851bcc82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc8b244cf43aa5cc31e15db31b6d228') in 0.005687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009192 seconds.
+  path: Assets/Ghost_Shader/Sub-Graphs/Triplanar_Projection.shadersubgraph
+  artifactKey: Guid(4ed9d0fe2ff12e144aacc3bea8d8eec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ghost_Shader/Sub-Graphs/Triplanar_Projection.shadersubgraph using Guid(4ed9d0fe2ff12e144aacc3bea8d8eec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca7abfab70eb8e97efb587bdca2e218') in 0.004865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.438289 seconds.
+  path: Assets/Ghost_Shader/Sub-Graphs/TriplanarProjection.shadersubgraph
+  artifactKey: Guid(4ed9d0fe2ff12e144aacc3bea8d8eec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ghost_Shader/Sub-Graphs/TriplanarProjection.shadersubgraph using Guid(4ed9d0fe2ff12e144aacc3bea8d8eec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c543c43ee41acfd778727bb0808991d4') in 0.005898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.080683 seconds.
+  path: Assets/Ghost_Shader/Sub-Graphs/VerticalMask01.shadersubgraph
+  artifactKey: Guid(eacdb9bf013d9494985429e9b9904651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ghost_Shader/Sub-Graphs/VerticalMask01.shadersubgraph using Guid(eacdb9bf013d9494985429e9b9904651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d283910de620611a6965712941a7fb') in 0.005398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.301291 seconds.
+  path: Assets/Ghost_Shader/Sub-Graphs/VerticalMask02.shadersubgraph
+  artifactKey: Guid(9dda000bc6859454190b0b1f08481a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ghost_Shader/Sub-Graphs/VerticalMask02.shadersubgraph using Guid(9dda000bc6859454190b0b1f08481a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd575a114deaad38549b3305b4d89b6e3') in 0.007174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.844196 seconds.
+  path: Assets/Ghost_Shader/Shaders/GhostUnlit.shadergraph
+  artifactKey: Guid(fe9b8d0cd2ed3534ba1bb2eaede52204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ghost_Shader/Shaders/GhostUnlit.shadergraph using Guid(fe9b8d0cd2ed3534ba1bb2eaede52204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '094d23c7fdf456e4a1e824ac275d3ecd') in 0.002545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 809.103471 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/FX_Fire.prefab
+  artifactKey: Guid(64263dff5479cd942833a649f91b239a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/FX_Fire.prefab using Guid(64263dff5479cd942833a649f91b239a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6208541802fe7f694bd1f3a182fcef9b') in 0.148458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Prop_Crate_01.prefab
+  artifactKey: Guid(c2849fd453abd0445a702a035f04ac60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Prop_Crate_01.prefab using Guid(c2849fd453abd0445a702a035f04ac60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e397eab83b415916113de0d050bc6de5') in 0.039687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Grass_01.prefab
+  artifactKey: Guid(9ad607532c614c54ebd43e913aaf8857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Grass_01.prefab using Guid(9ad607532c614c54ebd43e913aaf8857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f38856b1c964679ac9760ae0f908e21b') in 0.025885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_Village_02.prefab
+  artifactKey: Guid(f65a7bee03bbc4542a4af2c67922b549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_Village_02.prefab using Guid(f65a7bee03bbc4542a4af2c67922b549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f981bf335a26811554fa8e1a95d3ffd0') in 0.012652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Bush_01.prefab
+  artifactKey: Guid(f7e91e1d54c5ad64f8125310343f0d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Bush_01.prefab using Guid(f7e91e1d54c5ad64f8125310343f0d30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97476f4a844c9da986de0c59314735c5') in 0.023422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_House_Base_01.prefab
+  artifactKey: Guid(8b17dbd29b0c2474d958f6a2aa5d3aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_House_Base_01.prefab using Guid(8b17dbd29b0c2474d958f6a2aa5d3aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd02757d5c15f0541a5ff754e86a3a5df') in 0.017127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_TreeLog_01.prefab
+  artifactKey: Guid(e0bcb36554be1124b8a89d63037350be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_TreeLog_01.prefab using Guid(e0bcb36554be1124b8a89d63037350be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d339a08200280a69957f5b2c4b3595b') in 0.026301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_House_Roof_Wood_01.prefab
+  artifactKey: Guid(2b98fd7ecd6a2024e863e0a87aba16c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_House_Roof_Wood_01.prefab using Guid(2b98fd7ecd6a2024e863e0a87aba16c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897c5527b304a3a5d6d46e47339cd4ae') in 0.011708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Tree_03.prefab
+  artifactKey: Guid(653c97bd88b4b084d87714542c43ee5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Tree_03.prefab using Guid(653c97bd88b4b084d87714542c43ee5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49242deae858c4c52bc02ccf1920e200') in 0.011078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Hill_01.prefab
+  artifactKey: Guid(df5b94a5c7b01ae4da71fe5dd12ddcad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Hill_01.prefab using Guid(df5b94a5c7b01ae4da71fe5dd12ddcad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6348ab9cce95a5af4dacb81458341c9') in 0.025586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Water.prefab
+  artifactKey: Guid(fb4e0b01a8eccf24c9e5ca4c30a9b2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Water.prefab using Guid(fb4e0b01a8eccf24c9e5ca4c30a9b2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c02ad73593ad081c823d2777899c29') in 0.028098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_Hut_01.prefab
+  artifactKey: Guid(5a346deceb21d0c4781e67a70fbcc1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_Hut_01.prefab using Guid(5a346deceb21d0c4781e67a70fbcc1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e008d8c6d3e1df82047f9c118427b3') in 0.011582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_FloorTile_05.prefab
+  artifactKey: Guid(07ace05306ce58d49963df7396227e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_FloorTile_05.prefab using Guid(07ace05306ce58d49963df7396227e22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa1d6e6faa8a87384a40280a91a7a37') in 0.022635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/NewLayer 3.terrainlayer
+  artifactKey: Guid(10e83f5e17beb9a429e706769b713cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/NewLayer 3.terrainlayer using Guid(10e83f5e17beb9a429e706769b713cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d01752095bc1bbf4dfab60dfe5b6e7') in 0.024234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Tile_Grass_01.prefab
+  artifactKey: Guid(bc6b7d6f0fb98544a873a3d69729fe66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Tile_Grass_01.prefab using Guid(bc6b7d6f0fb98544a873a3d69729fe66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8717ec85f31d36e0691b5275e79514e1') in 0.031495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_GroundMounds_01.prefab
+  artifactKey: Guid(067161ae46386c14c842800eb27cf27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_GroundMounds_01.prefab using Guid(067161ae46386c14c842800eb27cf27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6683a456b10c90f4583fe116600bc5') in 0.023140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Rock_015.prefab
+  artifactKey: Guid(27b2a5e9e01330645a7ab5be223502ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Rock_015.prefab using Guid(27b2a5e9e01330645a7ab5be223502ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd44fb210bb8b02ceba378e2f30106a67') in 0.024197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Flower_01.prefab
+  artifactKey: Guid(d6389bfdb7e456640b3a45339aac60a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Flower_01.prefab using Guid(d6389bfdb7e456640b3a45339aac60a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba9883e5a21b5e9fd07f93e75041bad') in 0.023391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/NewLayer.terrainlayer
+  artifactKey: Guid(19fef02ed63d8f14b9be20cc3183f9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/NewLayer.terrainlayer using Guid(19fef02ed63d8f14b9be20cc3183f9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9beb8d5fd87a9eee6a19f6ee009663de') in 0.010499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Tree_010.prefab
+  artifactKey: Guid(d556d30cab334dd449000218c87322ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Tree_010.prefab using Guid(d556d30cab334dd449000218c87322ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd783742b14995fb254e40d44e8c4ab28') in 0.011101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/NewLayer 1.terrainlayer
+  artifactKey: Guid(d05692f2cdd3246429d3af26ee90254a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/NewLayer 1.terrainlayer using Guid(d05692f2cdd3246429d3af26ee90254a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec1b17a7e8e6b8bdf5f7603eb4a6d05') in 0.009361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_Fence_02.prefab
+  artifactKey: Guid(d66c89601ce96d4419ce36a4dce3c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_Fence_02.prefab using Guid(d66c89601ce96d4419ce36a4dce3c401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da698c5564d8b8305f9dd2a63f4172b3') in 0.022311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_GroundMound_01.prefab
+  artifactKey: Guid(f0d166010146cdc4eb7c784d54eda812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_GroundMound_01.prefab using Guid(f0d166010146cdc4eb7c784d54eda812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2777c89c8770822afc0c13f1c5105e17') in 0.023634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_House_Door_02.prefab
+  artifactKey: Guid(ed4751dea11af194482b9a88578df086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Bld_House_Door_02.prefab using Guid(ed4751dea11af194482b9a88578df086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '294bc395bce9c49a4e6dd4d35bfd6b3c') in 0.010878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Grass_Large_01.prefab
+  artifactKey: Guid(dce1a891bc9f6744f8c11b28a4bf775d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Grass_Large_01.prefab using Guid(dce1a891bc9f6744f8c11b28a4bf775d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45c67570f489d60310a678629c355cb') in 0.035739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/NewLayer 2.terrainlayer
+  artifactKey: Guid(4f73257857c5ba64a8bcad2a19ca9112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/NewLayer 2.terrainlayer using Guid(4f73257857c5ba64a8bcad2a19ca9112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb1d72084d8a2a98f79923369ecf27d') in 0.011429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.975321 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Prop_Pumpkin_01.prefab
+  artifactKey: Guid(626f1b816ba1ee64a9f7cea6ceb529cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Prop_Pumpkin_01.prefab using Guid(626f1b816ba1ee64a9f7cea6ceb529cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b85935361261648a41a7b62b4992f7') in 0.025814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Wep_Rapier_01.prefab
+  artifactKey: Guid(47acc5b26852c45438ce84bf1364dea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Wep_Rapier_01.prefab using Guid(47acc5b26852c45438ce84bf1364dea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d656d55a9aeed6b776c6bdef1f5bbdd') in 0.023289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Wep_Sword_01.prefab
+  artifactKey: Guid(13af847dfa6dbe844ba4b7c902f98f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Wep_Sword_01.prefab using Guid(13af847dfa6dbe844ba4b7c902f98f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037183510991189ea0c6411d8984380f') in 0.024232 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
